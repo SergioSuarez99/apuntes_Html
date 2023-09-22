@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces y formularios</title>
+</head>
+<body>
+    <h1 id="titulo-principal">Aprendiendo enlaces y formularios HTML</h1>
+    <h2>Enlaces</h2>
+    <p>Para crear cualquier enlace utilizamos la etiqueta a</p>
+    <h3>Enlaces externos</h3>
+    <p>Los enlaces externos dirigen a otros sitios web que no pertenecen al mio</p>
+    <h4>Ejemplos</h4>
+    <!-- href es el atributo que sirve para poner el enlace que quiero dejar en mi sitio web -->
+    <a href="https://aulasvirtuales.udistrital.edu.co/course/view.php?id=11467">Click para ingresar al curso de Backend</a>
+    <br>
+    <!-- target="_blank" es el atributo que sirve para abrir el enlace en una nueva pestaña del navegador -->
+    <a href="https://www.udistrital.edu.co/inicio" target="_blank">Click para ir a la UD</a>
+    <br>
+    <h5>Temario del curso hasta el momento</h5>
+    <ol>
+        <li>
+            <!-- Si quiero enlazar documentos HTML solo debo poner el nombre del HTML -->
+            <a href="holaMundo.html">
+                hola Mundo 
+            </a>
+        </li>
+        <li>
+            <a href="peliculasTablas.html">
+                Etiquetas de listas y de tablas
+            </a>
+        </li>
+    </ol>
+    <h3 id="biografia">Enlaces internos</h3>
+        <a href="1. etiquetas-texto-multimedia.html#multimedia">Ir al contenido multimedia</a>
+        <br>
+        <a href="#titulo-principal">
+            <img src="imagenes/home.png" width="30px" height="30px">
+        </a>
+
+    <h2>Formularios</h2>
+    <form action="">
+        <label for="">nombre</label>
+        <!-- Es una entrada en el Formulario -->
+        <!-- En el Atributo Type se especifica ques e pédira un tipo de dato entero  -->
+        <input type="text" placeholder="Ingresa tu nombre">
+        <label for="">edad</label>
+        <input type="number" placeholder="Ingresa tu edad">
+        <label for="">Contraseña</label>
+        <input type="password" name="" id="" placeholder="Ingresa tu contraseña">
+        <label for="">Correo</label>
+        <input type="email" name="" id="" placeholder="Ingresa tu Correo">
+        <label for="">Nacimiento</label>
+        <input type="date" name="ingresa tu fecha de nacimiento " id="">
+        <input type="checkbox" name="" id="">
+        <label for="">Acepta los Terminos y condiciones </label>
+        <!-- se requiere ingresar datos sin correo  -->
+        <input type="submit" value="Registro">
+    </form>
+
+
+    <a href="#titulo-principal">
+        <img src="imagenes/home.png" width="30px" height="30px">
+    </a>
+</body>
+</html>
