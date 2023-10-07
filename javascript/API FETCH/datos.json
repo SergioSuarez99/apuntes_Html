@@ -1,0 +1,52 @@
+[
+    {
+        "nombre": "Sergio",
+        "apellido": "Suarez",
+        "edad": 25,
+        "contacto":{
+            "telefono":3103350758,
+            "correo":"sergio.990101@gmail.com"
+        },
+        "Trabajo": true
+    },
+    {
+        "nombre": "juan",
+        "apellido": "perez",
+        "edad":43,
+        "contacto":{
+            "telefono":3103950758,
+            "correo":"sergio.990101@gmail.com"
+        },
+        "Trabajo": false
+    },
+    {
+        "nombre": "andres",
+        "apellido": "casas",
+        "edad":31,
+        "contacto":{
+            "telefono":313350758,
+            "correo":"sergio0101@gmail.com"
+        },
+        "Trabajo": false
+    },
+    {
+        "nombre": "carlos",
+        "apellido": "sanchez",
+        "edad":20,
+        "contacto":{
+            "telefono":310395658,
+            "correo":"carlos123@gmail.com"
+        },
+        "Trabajo": true
+    },
+    {
+        "nombre": "Cristopher",
+        "apellido": "Ortiz",
+        "edad":23,
+        "contacto":{
+            "telefono":3213950758,
+            "correo":"Chris01@gmail.com"
+        },
+        "Trabajo": true
+    }
+]

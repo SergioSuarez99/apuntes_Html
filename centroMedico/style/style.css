@@ -5,8 +5,8 @@ body {
     background-image: url(https://img.freepik.com/fotos-premium/interior-hospital-centro-medico-camas-pacientes-sala-atencion-medica-lujo_124185-367.jpg?w=2000);
 }
 
-header {
-    background-color: #333;
+header,footer {
+    background-color: #81979e;
     color: white;
     text-align: center;
     padding: 20px;
@@ -122,9 +122,6 @@ input[type="submit"]:hover {
             background-color: #555;
         }
     /* CSS Para el Listado  de pacientes */
-        h1 {
-            margin: 0;
-        }
 
         table {
             max-width: 800px;
@@ -144,4 +141,22 @@ input[type="submit"]:hover {
             background-color: #333;
             color: white;
         }
-    
+        footer p{
+            text-align: center;
+
+        }
+        footer{
+            position: relative;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;}
+
+        returnIndex()
